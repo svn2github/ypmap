@@ -23,10 +23,10 @@ namespace UnitTet
         [Test]
         public void should_get_geo_info()
         {
-            GeocodingProvider gp = GMapProviders.BaiduMap;
+            //GeocodingProvider gp = GMapProviders.BaiduMap;
 
-            GeoCoderStatusCode status;
-            PointLatLng? point = gp.GetPoint("重庆市国际社区", out status);
+            //GeoCoderStatusCode status;
+            //PointLatLng? point = gp.GetPoint("重庆市国际社区", out status);
         }
 
         public override Guid Id
