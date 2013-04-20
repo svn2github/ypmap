@@ -56,8 +56,7 @@ namespace Demo.StreetView
          Viewer.PanoramaGeometry.BackMaterial = new DiffuseMaterial(PanoramaBrush);
       }
 
-      #region Rotation
-
+   
       static private readonly Vector3D AxisX = new Vector3D(1, 0, 0);
       static private readonly Vector3D AxisY = new Vector3D(0, 1, 0);
       static private readonly Vector3D AxisZ = new Vector3D(0, 0, 1);
@@ -119,7 +118,6 @@ namespace Demo.StreetView
          get;
          set;
       }
-      #endregion
 
       public PanoramaViewer()
       {

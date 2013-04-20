@@ -231,6 +231,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Message.resx">
       <DependentUpon>Message.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\StaticImage.resx">
       <DependentUpon>StaticImage.cs</DependentUpon>

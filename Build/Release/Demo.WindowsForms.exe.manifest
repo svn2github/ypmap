@@ -53,26 +53,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Demo.WindowsForms.exe" size="332800">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Demo.WindowsForms.exe" size="328704">
       <assemblyIdentity name="Demo.WindowsForms" version="1.7.0.0" publicKeyToken="B85B9027B614AFEF" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>wDsj5IAAOxeZkiBJw3kfg4XUr74=</dsig:DigestValue>
+        <dsig:DigestValue>BE5VpxDXnQYkXVOtfuoULRdpaZ4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GMap.NET.Core.dll" size="2378752">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="GMap.NET.Core.dll" size="2380800">
       <assemblyIdentity name="GMap.NET.Core" version="1.7.0.0" publicKeyToken="B85B9027B614AFEF" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>p9hvuOqVIPBRRVRaaiqldiq5OGI=</dsig:DigestValue>
+        <dsig:DigestValue>qdZdY0xYHLkbFBrUDS4pdbLonvU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -84,7 +84,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>Tf0htT5k3dTYwqZoLgXUpBYD/H0=</dsig:DigestValue>
+        <dsig:DigestValue>AAZymBPeCvCeMskOCpGaI73tcFM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

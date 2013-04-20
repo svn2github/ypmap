@@ -42,14 +42,14 @@ namespace Demo.Offline
 
            // this.MainMap.MapProvider.Area = new RectLatLng(30.981178, 105.351914, 2.765142, 4.120995);
             this.MainMap.BoundsOfMap = new RectLatLng(lat+2, lng+2, 2.765142, 4.120995);
-            this.MainMap.Manager.Mode = AccessMode.ServerOnly;
+            this.MainMap.Manager.Mode = AccessMode.CacheOnly;
             this.MainMap.MapProvider = GMapProviders.BaiduMap;
             this.MainMap.DragButton = MouseButton.Left;
             this.MainMap.Zoom = 13;
             this.MainMap.MinZoom = 8;
             this.MainMap.MaxZoom = 24;
 
-            //MapManagerLoader.Instance.Load(ConfigurationManager.AppSettings["mapName"]);
+            MapManagerLoader.Instance.Load(ConfigurationManager.AppSettings["mapName"]);
         }
 
         private void MainMap_OnTileLoadComplete(long elapsedmilliseconds)
