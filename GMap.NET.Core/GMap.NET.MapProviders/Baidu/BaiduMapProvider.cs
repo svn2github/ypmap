@@ -84,7 +84,7 @@ namespace GMap.NET.GMap.NET.MapProviders.Baidu
             var x = numX.ToString().Replace("-", "M");
             var y = numY.ToString().Replace("-", "M");
 
-            //http://q3.baidu.com/it/u=x=721;y=209;z=12;v=014;type=web&fm=44
+            //原来：http://q3.baidu.com/it/u=x=721;y=209;z=12;v=014;type=web&fm=44
             //更新：http://online1.map.bdimg.com/tile/?qt=tile&x=23144&y=6686&z=17&styles=pl
             string url = string.Format(UrlFormat, x, y, zoom);
             Console.WriteLine("url:" + url);

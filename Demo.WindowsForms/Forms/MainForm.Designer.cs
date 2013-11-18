@@ -30,8 +30,8 @@
       {
           System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
           this.panel2 = new System.Windows.Forms.Panel();
-          this.panel4 = new System.Windows.Forms.Panel();
           this.MainMap = new Demo.WindowsForms.Map();
+          this.panel4 = new System.Windows.Forms.Panel();
           this.splitter1 = new BSE.Windows.Forms.Splitter();
           this.panelMenu = new BSE.Windows.Forms.Panel();
           this.xPanderPanelList1 = new BSE.Windows.Forms.XPanderPanelList();
@@ -143,22 +143,10 @@
           this.panel2.Controls.Add(this.MainMap);
           this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
           this.panel2.Location = new System.Drawing.Point(0, 0);
-          this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+          this.panel2.Margin = new System.Windows.Forms.Padding(2);
           this.panel2.Name = "panel2";
           this.panel2.Size = new System.Drawing.Size(661, 562);
           this.panel2.TabIndex = 41;
-          // 
-          // panel4
-          // 
-          this.panel4.Controls.Add(this.panel2);
-          this.panel4.Controls.Add(this.splitter1);
-          this.panel4.Controls.Add(this.panelMenu);
-          this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-          this.panel4.Location = new System.Drawing.Point(0, 0);
-          this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-          this.panel4.Name = "panel4";
-          this.panel4.Size = new System.Drawing.Size(891, 562);
-          this.panel4.TabIndex = 44;
           // 
           // MainMap
           // 
@@ -184,6 +172,18 @@
           this.MainMap.Size = new System.Drawing.Size(661, 562);
           this.MainMap.TabIndex = 0;
           this.MainMap.Zoom = 0;
+          // 
+          // panel4
+          // 
+          this.panel4.Controls.Add(this.panel2);
+          this.panel4.Controls.Add(this.splitter1);
+          this.panel4.Controls.Add(this.panelMenu);
+          this.panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+          this.panel4.Location = new System.Drawing.Point(0, 0);
+          this.panel4.Margin = new System.Windows.Forms.Padding(2);
+          this.panel4.Name = "panel4";
+          this.panel4.Size = new System.Drawing.Size(891, 562);
+          this.panel4.TabIndex = 44;
           // 
           // splitter1
           // 

@@ -46,7 +46,7 @@ namespace Demo.WindowsPresentation
          //GMapProvider.WebProxy.Credentials = new NetworkCredential("ogrenci@bilgeadam.com", "bilgeada");
 
          // set cache mode only if no internet avaible
-         if(!Stuff.PingNetwork("pingtest.net"))
+         if(!Stuff.PingNetwork("www.baidu.com"))
          {
             MainMap.Manager.Mode = AccessMode.CacheOnly;
             MessageBox.Show("No internet connection available, going to CacheOnly mode.", "GMap.NET - Demo.WindowsPresentation", MessageBoxButton.OK, MessageBoxImage.Warning);

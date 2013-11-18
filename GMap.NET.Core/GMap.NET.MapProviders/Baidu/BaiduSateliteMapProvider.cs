@@ -49,11 +49,12 @@ namespace GMap.NET.GMap.NET.MapProviders.Baidu
 
             //return "http://q3.baidu.com/it/u=x=721;y=209;z=12;v=014;type=web&fm=44";
             //http://q3.baidu.com/it/u=x=721;y=209;z=12;v=014;type=web&fm=44
+            //更新:http://shangetu0.map.bdimg.com/it/u=x=5781;y=1662;z=15;v=009;type=sate&fm=46&udt=20131112
             string url = string.Format(UrlFormat, num, x, y, zoom, "009", "sate", "46");
             Console.WriteLine("url:" + url);
             return url;
         }
 
-        static readonly string UrlFormat = "http://q{0}.baidu.com/it/u=x={1};y={2};z={3};v={4};type={5}&fm={6}";
+        static readonly string UrlFormat = "http://shangetu0.map.bdimg.com/it/u=x={1};y={2};z={3};v={4};type={5}&fm={6}";
     }
 }
