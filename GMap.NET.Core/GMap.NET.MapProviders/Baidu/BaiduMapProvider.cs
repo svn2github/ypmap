@@ -85,12 +85,14 @@ namespace GMap.NET.GMap.NET.MapProviders.Baidu
             var y = numY.ToString().Replace("-", "M");
 
             //http://q3.baidu.com/it/u=x=721;y=209;z=12;v=014;type=web&fm=44
-            string url = string.Format(UrlFormat, num, x, y, zoom, "014", "web", "44");
+            //更新：http://online1.map.bdimg.com/tile/?qt=tile&x=23144&y=6686&z=17&styles=pl
+            string url = string.Format(UrlFormat, x, y, zoom);
             Console.WriteLine("url:" + url);
             return url;
         }
 
-        static readonly string UrlFormat = "http://q{0}.baidu.com/it/u=x={1};y={2};z={3};v={4};type={5}&fm={6}";
+
+        static readonly string UrlFormat = "http://online1.map.bdimg.com/tile/?qt=tile&x={0}&y={1}&z={2}&styles=pl";
         
     }
 }
